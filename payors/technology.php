@@ -1,0 +1,70 @@
+<html>
+<head>
+<?php include ('../include/head.php'); ?>
+</head>
+<body>
+<?php include ('../include/banner.php'); ?>   
+
+<?php include ('../include/horizontalnav.php'); ?>
+
+<div id="main-content">
+<div class="habreadcrumbs">
+Payors > Technology	
+</div> <!-- end of habreadcrumbs -->
+<div id="section-panel">
+<h2>Technology-Enabled Service</h2>
+<div class="section-article">
+<div id="top-articles">
+PROBLEM:  Fragmentation of patient information is escalating at the rate that cannot be sustained by the market.
+<br /><br />
+SOLUTION:  Health Allianze’s patent-centric approach technology enabled service improves patient care effectively and efficiently lowers costs.
+<br /><br />
+Unlike other electronic health record implementations, which serve the needs of hospitals and insurers, Health Allianze utilizes a patient-centric  approach.
+<br /><br />
+With its portable, secure approach, and a patented access and delivery model, Health Allianze empowers patients to provide their various medical providers with their complete medical  and health history.
+<br /><br />
+Health Allianze gives doctors access to actual medical records, not medical anecdotes, at the point of care.
+<br /><br />
+Health Allianze’s strategy is to provide knowledge base care to improve the outcomes for your insured members.   Health Allianze can provide you with the most comprehensive, secure and complete medical information for your patients.  No more sifting through stacks of files and valuable time wasted searching for documents.
+<br /><br />
+Each one of your clients will be issued a secure, portable KEY to unlock access to his or her complete medical information.
+<br /><br />
+The KEY is a valuable tool that will keep your insured patients and their doctors well informed and up to date with each patient's comprehensive medical data. 
+<br /><br />
+With access to family medical records, medical providers will be able to establish specific preventive care practices. This is a valuable tool that will keep your insured patients and their doctors well informed and up to date with each patient's comprehensive medical data.
+<br /><br /> 
+No longer will costs and insured member’s time be spent on unnecessary fact finding occurrences due to the lack of accurate, timely and accessible medical records.
+<center>
+<div style="padding-top:35px;margin-left:auto;margin-right:auto;" id="videocontainer">
+<a href="#" onclick="playVideo()"><img border="0" width="600" title="Click on this image to see the video!" src="/ha/images/payorsolution.png"></a></center>
+</div> <!-- end of videocontainer -->
+</div> <!-- end of top-articles -->
+<br /><br /><br />
+<div style="width:90%;" id="bottom-articles">
+<h3>Here is how we will work with you to reduce the staggering cost of healthcare and improve delivery and efficiency:</h3>
+Insurers will have evidence-based comprehensive, non-identifiable medical information to track demographics, illness trends and statistics. Our evidence-based reports will be most valuable in analyzing health data from the start of a patient's symptoms through clinical tests, diagnosis, treatments and results.  By capturing the patient's symptoms from their personal health journal, analysis can provide preventive actions to potentially growing health problems, right from the onset. 
+<br /><br />
+Health Allianze products will give you the necessary information to recommend the best possible care for your clients. This will lead to a healthier lifestyle for each individual.  
+<br /><br />
+Doctors will have access to complete patient-specific records at the point of care, allowing them to make knowledgeable and efficient decisions. 
+<br /><br />
+We educate patients and encourage them to develop a better understanding of their own medical care. 
+<br /><br /> 
+We support and exceed the HIPAA security and privacy guidelines and are committed to the security of all technical and policy aspects of information sharing. 
+<br /><br />
+We will streamline claim processing, reduce costs and eliminate submitted errors.
+<br />
+<div style="padding-top:35px;margin-left:auto;margin-right:auto;" >
+<center><img border="0" height="300" title="" src="/ha/images/payorcostpie.png"></center>
+</div> <!-- end of img -->
+<center>
+<br /><br />
+<span style="font-family:'OFL Sorts Mill Goudy TT', georgia, times, serif;font-size:1.5em; color:blue;">Health Allianze directly targets $427.5 billion of excess healthcare spending.</span>
+</div> <!-- end of bottom-articles -->
+<br /><br /><br /><br />
+<div> <!-- end of section-article -->
+</div> <!-- end of section-panel -->
+</div> <!--end of main-content -->
+</div> <!-- end of container -->
+</body>
+</html>
