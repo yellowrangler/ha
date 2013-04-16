@@ -1,6 +1,8 @@
 <?php
 $patientColor = "#980F09";
 $haColor = "#445E83";
+$insurerColor = "#006600";
+$providerColor = "#660066";
 ?>
 
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />

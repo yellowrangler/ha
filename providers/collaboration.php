@@ -3,47 +3,54 @@
 <?php include ('../include/head.php'); ?>
 </head>
 <body>
-<?php include ('../include/banner.php'); ?>   
+
+<div class="container">
+<?php include ('../include/banner.php'); ?>    
 
 <?php include ('../include/horizontalnav.php'); ?>
 
 <div id="main-content">
-<div class="habreadcrumbs">
-Providers > Collaboration	
+<div class="habreadcrumbs" style="color:<?php print $patientColor; ?>;">
+Providers > Collaboration    
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">
-<h2>Why Collaboration is Important in Your Healthcare</h2>
+<h2>Why is Collaboration Important with your Patients’ Healthcare?</h2>
 <div class="section-article">
-<div style="float:left; width:60%;">	
-In order for you to get the BEST medical care, you will need to see medical specialist who have dedicated their lives to be experts in caring for specific areas of your body.  In order for these medical experts to provide the most effective and efficient care for you, they must know what all of your medical providers (primary care doctor, cardiologist, dermatologist, ophthalmologist, OB/GYN, orthopedic, pediatrician, nurse, therapist, dentist, chiropractor, etc) have tested, diagnosed and treated you for.   
+<div style="margin:auto;">
+<img border="0" align="right" height="380" src="/ha/images/collaborationpeople.png">
 </div>
-<div style="float:left;padding-left:15px;">
-<img border="0" height="150" src="/ha/images/collaborationpeople.png">
-</div>
-<div style="clear:both">
-<br />
-Patients, who had a local doctor care for their parents and care for them from their birth, have experienced a form of collaborative care due to one doctor’s knowledge of their family history and entire medical care.   
+<div style="padding-top:20px;line-height:25px;">    
+Your Patients’ entrust you with the most important aspect of their life, their health.  Your expertise, experience, knowledge and education are the essentials you utilize in treating their symptoms. This in turn leads to diagnosis, treatments and procedures for each individual. 
 <br /><br />
-However, today this is not the medical care experience of patient’s.  They have a primary care doctor chosen from their insurance list, and see a specialist for each unique and specific medical issue.  A patient’s medical information is not shared between the medical provider’s they encounter.  There is no collaboration.  A patient must try to explain what prior medical providers have tested and diagnosed.  They must go through duplicate tests and procedures because medical records are not shared amount their medical providers.  This is NOT effective and efficient medical care.  It is costly, time consuming and risky for the patient’s care.	
+In order for you to provide the “BEST QUALITY” of medical care for your Patients; you should have access to their entire medical and health information every time you meet with them.  You will also need to work with other medical specialists who have specific expertise in caring for the particular needs of your Patients.  In order for you, and your colleagues and associates to provide the most effective and efficient care for each Patient, you need to be able collaborate, communicate and share all the information that you have concerning your patient. 
 <br /><br />
-Health Allianze solves this problem.  We give the patient a technology KEY that the allows them to give their medical providers’ collaborative, comprehensive medical and health information at the point of care, anywhere in the world, at any time.
+<span style="margin:auto;">
+<img border="0" style="padding:10px;" align="left" width="270" src="/ha/images/Senior woman with male doctor.jpg">
+</span>
+It is also very important for you have an exact medical understanding of your Patient’s family history as you research the factors that can provide clues to pre-existing medical conditions that may run in a family.   By reviewing patterns of disorders among relatives, you can determine whether a Patient, or other family members, or future generations may be at an increased risk of developing a particular disease, or illness.  A family medical history can identify Patients with a higher-than-usual chance of having common disorders, such as heart disease, high blood pressure, stroke, certain cancers, and diabetes.  As Patients and Family members continue to manage their care, it is 
 <br /><br />
-Health Allianze works with the patient to manage this private medical and health information securely.  The patient grants access to their medical providers and healthcare supporters exactly when they need accurate, valuable medical information of all of their care.
+At the current time Patient Centric Collaborative Care does not exist.  Healthcare is dispensed as a science based experiment that has its roots in scientific based methodologies.  Although effective in providing and diagnosing health issues, time to diagnosis, treatments and claims are jeopardizing the current system.  The answer to these growing concerns is a Patient-Centric Collaborative Care approach.  
+<span style="margin:auto;">
+<img border="0" style="padding:10px;" align="right" width="270" src="/ha/images/Doctor Girl Mom at Office.jpg">
+</span>
+important that the collaboration of their medical and health information be available for your review at the Point of Care.  Knowing one’s family medical history allows a Medical Provider to take steps to reduce his or her risk. The prognosis being that more frequent screening should be started at an earlier age. 
 <br /><br />
-If you believe that “The first wealth is health” (by Ralph Waldo Emerson), then you need to have your comprehensive medical and health information for patient-centric knowledge-based, collaborative medical care every time you see a medical provider.
-<br /><br /></br>
-<div style="padding-left:40%;">
-<span style="color:red">K</span>NOWLEDGE
+Collaboration is an effective method of sharing “Knowledge-Based” medical information among your Patients’ Medical Providers, which in turn creates a sustaining relationship with your Patient. Collaboration is a key principle in knowledge management that promotes teamwork with each Medical Provider. The end result is a Patient-Centric Record that delivers improved health information and data for each individual patient.
+<br /><br />
+Health Allianze creates and manages a Patient-Centric Collaboration technology-enabled service.  We give the patient a technology KEY that allows them to give you their collaborative, comprehensive medical and health information at the point of care.
+<br /><br />
+<span style="font-weight:bold;">If you believe that “The first wealth is health”, then you need to embrace patient-centric knowledge-based, collaborative medical care through the power of your Patient’s comprehensive medical and health information. </span>
 </div>
-<div style="padding-left:45%;">
-<span style="color:red">E</span>MPOWERING
-</div>
-<div style="padding-left:50%;">
-<span style="color:red">Y</span>OU
-</div>
+<br /><br />
+<div style="margin:auto;padding-top:35px;width:100%;">
 <center>
+<img border="0" align="middle" height="300" src="/ha/images/Doctors and Nurses Collaboration.png">
+</center>
 </div>
+<br /><br />
+<?php include ('../include/MPkey.php'); ?>
 <br />
+<br /><br /></br>
 <div> <!-- end of section-article -->
 </div> <!-- end of section-panel -->
 </div> <!--end of main-content -->

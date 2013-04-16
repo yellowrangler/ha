@@ -41,9 +41,8 @@ If you believe that “The first wealth is health” (by Ralph Waldo Emerson), t
 <img border="0" align="middle" height="300" src="/ha/images/Doctor Team and Nurses and Patient.jpg">
 </center>
 </div>
-
 <br /><br /></br>
-<?php include ('../include/key.php'); ?>
+<?php include ('../include/PAkey.php'); ?>
 <br />
 <div> <!-- end of section-article -->
 </div> <!-- end of section-panel -->

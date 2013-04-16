@@ -27,7 +27,7 @@
 		</ul>
 	</li>
 	<li>
-		<a href="#">Payors</a>
+		<a href="#">Insurers</a>
 		<ul class="menu_body">
 			<li><a href="/ha/payors/collaboration.php">Collaboration</a></li>
 			<li><a href="/ha/payors/technology.php">Technology</a></li>

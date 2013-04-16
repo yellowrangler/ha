@@ -3,47 +3,55 @@
 <?php include ('../include/head.php'); ?>
 </head>
 <body>
-<?php include ('../include/banner.php'); ?>   
+
+<div class="container">
+<?php include ('../include/banner.php'); ?>    
 
 <?php include ('../include/horizontalnav.php'); ?>
 
 <div id="main-content">
-<div class="habreadcrumbs">
-Payors > Collaboration	
+<div class="habreadcrumbs" style="color:<?php print $patientColor; ?>;">
+Insurers > Collaboration    
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">
-<h2>Why Collaboration is Important in Your Healthcare</h2>
+<h2>Why is Patient- Centric Collaboration Important in Managing Insured Members’ Healthcare?</h2>
 <div class="section-article">
-<div style="float:left; width:60%;">	
-In order for you to get the BEST medical care, you will need to see medical specialist who have dedicated their lives to be experts in caring for specific areas of your body.  In order for these medical experts to provide the most effective and efficient care for you, they must know what all of your medical providers (primary care doctor, cardiologist, dermatologist, ophthalmologist, OB/GYN, orthopedic, pediatrician, nurse, therapist, dentist, chiropractor, etc) have tested, diagnosed and treated you for.   
+<div style="margin:auto;">
+<img border="0" align="right" height="380" src="/ha/images/collaborationpeople.png">
 </div>
-<div style="float:left;padding-left:15px;">
-<img border="0" height="150" src="/ha/images/collaborationpeople.png">
+<div style="padding-top:20px;line-height:25px;">    
+As an Insurer, you are one the most significant players in the healthcare paradigm.  Your role as an advocate for Patients as their financial intermediate with their Medical Providers, positions you as the leader in ensuring that the right medical processes are provided and that they are effective.
+<br /><br />
+As a promoter of healthy Insured Members, you are the advocate for the “Best Quality” of medical care for them, in the most effective, efficient and cost valuable approach.  Health Allianze wants to partner with you to ensure that your Insured Members are receiving the best in what medical care has to offer. 
+<br /><br />
+In order for your members to receive the “BEST” medical care, in many instances they need to meet with medical specialists who are expert’s respective fields.   In order for these medical experts to provide the most effective and efficient care possible, these Medical Providers (primary care doctors, cardiologists, dermatologists, ophthalmologists, OB/GYNs, orthopedics, pediatricians, nurses, therapists, dentists, chiropractors, etc.) must have comprehensive patient-centric medical and health information at the point of care.  Health Allianze provides a technology-enabled service that manages your Insured Members’ comprehensive patient-centric healthcare information, and gives them the ability to grant access to their Medical Providers’ so that they have the knowledge needed to collaborate with other Medical Providers to ensure the “Best” quality of care. 
+<br /><br />
+<span style="margin:auto;">
+<img border="0" style="padding:10px;" align="left" width="270" src="/ha/images/Man under Umbrella.jpg">
+</span>
+Health Allianze’s Members Primary Care Physician, and their supporting Medical Providers and Medical Specialists should be able to collaborate and share information that is in the “BEST” interest of the Patients.  By utilizing this <span style="font-weight:bold";>Patient-Centric Collaborative</span> care approach each Patient will receive effective and efficient medical care with better outcomes, while controlling unnecessary claims. 
+<br /><br />
+At the current time Patient Centric Collaborative Care does not exist.  Healthcare is dispensed as a science based experiment that has its roots in scientific based methodologies.  Although effective in providing and diagnosing health issues, time to diagnosis, treatments and claims are jeopardizing the current system.  The answer to these growing concerns is a Patient-Centric Collaborative Care approach.  
+<br /><br />
+<span style="margin:auto;">
+<img border="0" style="padding:10px;" align="left" width="270" src="/ha/images/Nurse Helping Patient.jpeg">
+</span>
+This will reduce costs and claims, while improving patient care and allowing the medical community a much improved method of diagnosing and treating each Patient.  Health Allianze solves this problem. 
+<br /><br />
+We give the Insured Member/Patient a technology KEY that allows them to share with their Medical Providers’ a collaborative, comprehensive medical and health record at the point of care, anywhere in the world, at any time. 
+<br /><br />
+Health Allianze works with the Insured Member/Patient to manage their private medical and health information securely.  The Insured Member/Patient grants access to their medical providers and healthcare supporters exactly when they need accurate, valuable medical information of all of their care. 
+<br /><br />
+<span style="font-weight:bold;">If you believe that “The first wealth is health”, then you need to have Insured Members’ comprehensive medical and health information for patient-centric knowledge-based, collaborative medical care every time they see their medical providers. </span>
 </div>
-<div style="clear:both">
-<br />
-Patients, who had a local doctor care for their parents and care for them from their birth, have experienced a form of collaborative care due to one doctor’s knowledge of their family history and entire medical care.   
-<br /><br />
-However, today this is not the medical care experience of patient’s.  They have a primary care doctor chosen from their insurance list, and see a specialist for each unique and specific medical issue.  A patient’s medical information is not shared between the medical provider’s they encounter.  There is no collaboration.  A patient must try to explain what prior medical providers have tested and diagnosed.  They must go through duplicate tests and procedures because medical records are not shared amount their medical providers.  This is NOT effective and efficient medical care.  It is costly, time consuming and risky for the patient’s care.	
-<br /><br />
-Health Allianze solves this problem.  We give the patient a technology KEY that the allows them to give their medical providers’ collaborative, comprehensive medical and health information at the point of care, anywhere in the world, at any time.
-<br /><br />
-Health Allianze works with the patient to manage this private medical and health information securely.  The patient grants access to their medical providers and healthcare supporters exactly when they need accurate, valuable medical information of all of their care.
-<br /><br />
-If you believe that “The first wealth is health” (by Ralph Waldo Emerson), then you need to have your comprehensive medical and health information for patient-centric knowledge-based, collaborative medical care every time you see a medical provider.
 <br /><br /></br>
-<div style="padding-left:40%;">
-<span style="color:red">K</span>NOWLEDGE
+<div style="padding-bottom:250px;width:90%;">
+<?php include ('../include/INkey.php'); ?>
+<div style="margin:auto;float:right;">
+<img border="0" align="middle" width="270" src="/ha/images/Insurance Forms 4.jpg">
 </div>
-<div style="padding-left:45%;">
-<span style="color:red">E</span>MPOWERING
 </div>
-<div style="padding-left:50%;">
-<span style="color:red">Y</span>OU
-</div>
-<center>
-</div>
-<br />
+<br /><br /></br>
 <div> <!-- end of section-article -->
 </div> <!-- end of section-panel -->
 </div> <!--end of main-content -->
