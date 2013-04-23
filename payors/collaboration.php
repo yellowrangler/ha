@@ -10,7 +10,7 @@
 <?php include ('../include/horizontalnav.php'); ?>
 
 <div id="main-content">
-<div class="habreadcrumbs" style="color:<?php print $patientColor; ?>;">
+<div class="habreadcrumbs" style="color:<?php print $insurerColor; ?>;">
 Insurers > Collaboration    
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">

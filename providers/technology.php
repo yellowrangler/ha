@@ -8,7 +8,7 @@
 <?php include ('../include/horizontalnav.php'); ?>
 
 <div id="main-content">
-<div class="habreadcrumbs">
+<div class="habreadcrumbs" style="color:<?php print $providerColor; ?>;">
 Providers > Technology	
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">

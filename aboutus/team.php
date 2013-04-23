@@ -3,22 +3,7 @@
 <?php include ('../include/head.php'); ?>
 </head>
 <body>
-<script type="text/javascript" >
-var titleBanner = "Healthcare Collaboration Services";
-var titleIndex = 0;
-var intervalVar = "";
-
-$(document).ready(function() {
-	$("#ywTitle").append(titleBanner);
-});
-
-</script>
-
-<div class="container">
-<div id="banner">
-<img border="0" style="float:left; padding-left:75px; padding-top:15px" src="/ha/images/HAlogo.png">
-<h1 id="ywTitle" style="float:left; padding-left:35px; padding-top:5px; font-size: 35px;" ></h1>
-</div> <!-- end of banner -->
+<?php include ('../include/banner.php'); ?>   
 
 <?php include ('../include/horizontalnav.php'); ?>
 
@@ -55,6 +40,8 @@ Executive Vice President of Business Development, Andrew Armata
 Vice President of Sales John Barbaro
 <br />
 Vice President of Strategic Partnerships, Sandra Friedman
+<br />
+Vice President of Product Development, Tarrant Cutler Jr
 <br />
 Director of Medical Affairs, Rosemary Costello RN, MS, OCN
 <br />

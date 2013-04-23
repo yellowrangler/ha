@@ -3,22 +3,7 @@
 <?php include ('../include/head.php'); ?>
 </head>
 <body>
-<script type="text/javascript" >
-var titleBanner = "Healthcare Collaboration Services";
-var titleIndex = 0;
-var intervalVar = "";
-
-$(document).ready(function() {
-	$("#ywTitle").append(titleBanner);
-});
-
-</script>
-
-<div class="container">
-<div id="banner">
-<img border="0" style="float:left; padding-left:75px; padding-top:15px" src="/ha/images/HAlogo.png">
-<h1 id="ywTitle" style="float:left; padding-left:35px; padding-top:5px; font-size: 35px;" ></h1>
-</div> <!-- end of banner -->
+<?php include ('../include/banner.php'); ?>   
 
 <?php include ('../include/horizontalnav.php'); ?>
 
@@ -29,15 +14,15 @@ About Us > Contact Us
 <div id="section-panel">
 <h2>Contact Us</h2>
 <div class="section-article">
-<div id="leftsidekeyarticle" style="float:left; width:40%;">
+<div id="leftsidekeyarticle" style="float:left; width:55%;">
 <div style="float:left;padding-left:45px;">
-<img style="padding-top:15px;" border="0" height="350" src="/ha/images/key.png">
+<img style="padding-top:15px;padding-left:20%;" border="0" height="350" src="/ha/images/key.png">
 <br /><br />
 <span style="font-size:1.1em;">Your</span> <span style="font-size:1.1em;color:#A9C2DB">KEY</span><span style="font-size:1.1em;"> to Personal Health Care</span>
 <br /><br />
 </div>
 </div> <!-- end of leftsidekeyarticle -->
-<div id="rightsidekeyarticle" style="float:left; width:60%;">
+<div id="rightsidekeyarticle" style="float:left; margin:auto;">
 <div style="display:block;line-height:2.5em;padding-left:2%;">	
 <span style="font-size:3em; color:#A9C2DB">K</span><span style="font-size:2em; color:#29537D">NOWLEDGE</span>
 <br />

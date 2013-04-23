@@ -4,9 +4,26 @@
 </head>
 <body>
 <script type="text/javascript" >
-var titleBanner = "Collaborative Services";
+var titleBanner = "Patient-Centric Collaborative Services";
 var titleIndex = 0;
 var intervalVar = "";
+
+// var aninmateLineCnt = 0;
+// var animateLineNbr = 3;
+
+var animateLine = new Array();
+animateLine[0] = "";
+animateLine[1] = "Health Allianze Empowers You";
+animateLine[2] = "Patients Empowered to Grant Collaborative Access at the Point of Care";
+animateLine[3] = "Medical Providers Empowered with Patient-Centric Knowledge-Based Collaborative Information";
+animateLine[4] = "Insurers Empowered with Evidence-Based Knowledge of Patients Health & Medical Information";
+
+var animateLineColor = new Array();
+animateLineColor[0] = "";
+animateLineColor[1] = "<?php print $haColor; ?>";
+animateLineColor[2] = "<?php print $patientColor; ?>";
+animateLineColor[3] = "<?php print $providerColor; ?>";
+animateLineColor[4] = "<?php print $insurerColor; ?>";
 
 $(document).ready(function() {
 	$("#section-panel").css("display","none");
@@ -53,15 +70,45 @@ function buildTitle()
 		        nextText: 'Next', // Next directionNav text
 		        randomStart: false, // Start on a random slide
 		        beforeChange: function(){}, // Triggers before a slide transition
-		        afterChange: function(){}, // Triggers after a slide transition
+		        afterChange: function(){animateTextfromSlide(this);}, // Triggers after a slide transition
 		        slideshowEnd: function(){}, // Triggers after all slides have been shown
 		        lastSlide: function(){}, // Triggers when last slide is shown
 		        afterLoad: function(){} // Triggers when slider has loaded
 		    });
 
 		$("#section-panel").css("display","block");
+
+		// intervalVar=setInterval(function(){animateText()},7000);
 	}
 }
+
+function animateTextfromSlide(obj)
+{
+
+	var myStr = $(".nivo-main-image").attr("src");
+	var strFind = "bg";
+	var strStart = myStr.indexOf(strFind);
+	var idx = parseInt(myStr[strStart+2]);
+
+	$("#animatedMsg").html("");
+	$("#animatedMsg").css("color", animateLineColor[idx]);
+	$("#animatedMsg").html(animateLine[idx]);
+	// $("#animatedMsg").fadeIn("slow");
+}
+
+// function animateText()
+// {
+// 	if (aninmateLineCnt > 2)
+// 		aninmateLineCnt = 0;
+
+// 	$("#animatedMsg").html("");
+// 	$("#animatedMsg").css("color", animateLineColor[aninmateLineCnt]);
+// 	$("#animatedMsg").css("display", "hidden");	
+// 	$("#animatedMsg").html(animateLine[aninmateLineCnt]);
+// 	$("#animatedMsg").fadeIn("slow");
+	 
+// 	aninmateLineCnt++;
+// }
 
 // sliceDown
 // sliceDownLeft
@@ -84,7 +131,7 @@ function buildTitle()
 <div class="container">
 <div id="banner">
 <img border="0" height="100" style="float:left; padding-left:75px; padding-top:15px" src="/ha/images/HAlogo.png">
-<h1 id="ywTitle" style="float:left; padding-left:35px; color:#445E83;padding-top:5px; font-size: 35px;" ></h1>
+<h1 id="ywTitle" style="float:left; padding-left:35px; color:#445E83;padding-top:5px; font-size: 30px; font-style:italic; color:<?php print $haColor; ?>" ></h1>
 </div> <!-- end of banner -->
 
 <?php include ('include/horizontalnav.php'); ?>
@@ -102,17 +149,24 @@ function buildTitle()
 </div>
 </div> <!--end of main-content -->
 <div id="section-panel">
-<div style="margin:auto; width:80%;">
-<p>A KEY that empowers the patient 
+<div style="margin:auto; width:70%;">
+<center><p style="font-weight:bold;">Welcome to the Patient-Centric Collaborative Healthcare System</p></center>
+<br />
+<p>A <span class="keyWord" >KEY</span> that empowers the patient 
 to access and share all of their medical and health information with their Medical Providers.
 </p>
 <p>
 Health Allianze is dedicated to being the “world class” provider of quality healthcare for our clients through the power of Knowledge-Based Information and Care.
 </p>
+</div>
+<br /><br />
+<div id="animatedMsg" style="text-align:center;">
+</div>	
 <br /><br />
 <center>
-<img border="0" height="150" src="/ha/images/ATM Scenario Circles.png">
+<img border="0" height="300" src="/ha/images/ATM Scenario Circles.png">
 </center>
+<br /><br /><br /><br />
 </div> <!--end of section-article -->
 </div> <!--end of section-panel -->
 </div> <!-- end of container -->
