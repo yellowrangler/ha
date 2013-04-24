@@ -11,25 +11,22 @@
 
 <div id="main-content">
 <div class="habreadcrumbs" style="color:<?php print $providerColor; ?>;">
-Providers > Collaboration    
+Medical Providers > Collaboration    
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">
 <h2>Why is Collaboration Important with your Patients’ Healthcare?</h2>
 <div class="section-article">
 <div style="margin:auto;">
-<img border="0" align="right" height="380" src="/ha/images/collaborationpeople.png">
+<img border="0" align="right" height="380" src="/ha/images/Patient Centered Care for Presentation.png">
 </div>
 <div style="padding-top:20px;line-height:25px;">    
-Your Patients’ entrust you with the most important aspect of their life, their health.  Your expertise, experience, knowledge and education are the essentials you utilize in treating their symptoms. This in turn leads to diagnosis, treatments and procedures for each individual. 
+Your Patients’ entrust you with the most important aspect of their life, their health.  Your expertise, experience, knowledge and education are the essentials you utilize in treating their symptoms. This in turn leads to diagnosis, treatments and procedures for each individual.
 <br /><br />
-In order for you to provide the “BEST QUALITY” of medical care for your Patients; you should have access to their entire medical and health information every time you meet with them.  You will also need to work with other medical specialists who have specific expertise in caring for the particular needs of your Patients.  In order for you, and your colleagues and associates to provide the most effective and efficient care for each Patient, you need to be able collaborate, communicate and share all the information that you have concerning your patient. 
-<br /><br />
+In order for you to provide the “BEST QUALITY” of medical care for your Patients; you should have access to their entire medical and health information every time you meet with them.  You will also need to work with other medical specialists who have specific expertise in caring for the particular needs of your Patients.  In order for you, and your colleagues and associates to provide the most effective and efficient care for each Patient, you need to be able collaborate, communicate and share all the information that you have concerning your patient.<br /><br />
 <span style="margin:auto;">
 <img border="0" style="padding:10px;" align="left" width="270" src="/ha/images/Senior woman with male doctor.jpg">
 </span>
 It is also very important for you have an exact medical understanding of your Patient’s family history as you research the factors that can provide clues to pre-existing medical conditions that may run in a family.   By reviewing patterns of disorders among relatives, you can determine whether a Patient, or other family members, or future generations may be at an increased risk of developing a particular disease, or illness.  A family medical history can identify Patients with a higher-than-usual chance of having common disorders, such as heart disease, high blood pressure, stroke, certain cancers, and diabetes.  As Patients and Family members continue to manage their care, it is 
-<br /><br />
-At the current time Patient Centric Collaborative Care does not exist.  Healthcare is dispensed as a science based experiment that has its roots in scientific based methodologies.  Although effective in providing and diagnosing health issues, time to diagnosis, treatments and claims are jeopardizing the current system.  The answer to these growing concerns is a Patient-Centric Collaborative Care approach.  
 <span style="margin:auto;">
 <img border="0" style="padding:10px;" align="right" width="270" src="/ha/images/Doctor Girl Mom at Office.jpg">
 </span>
@@ -39,9 +36,9 @@ Collaboration is an effective method of sharing “Knowledge-Based” medical in
 <br /><br />
 Health Allianze creates and manages a Patient-Centric Collaboration technology-enabled service.  We give the patient a technology KEY that allows them to give you their collaborative, comprehensive medical and health information at the point of care.
 <br /><br />
-<span style="font-weight:bold;">If you believe that “The first wealth is health”, then you need to embrace patient-centric knowledge-based, collaborative medical care through the power of your Patient’s comprehensive medical and health information. </span>
+<span class="emphasizePhrase">If you believe that “The first wealth is health”, then you need to embrace patient-centric knowledge-based, collaborative medical care through the power of your Patient’s comprehensive medical and health information.</span>
 </div>
-<br /><br />
+<br />
 <div style="margin:auto;padding-top:35px;width:100%;">
 <center>
 <img border="0" align="middle" height="300" src="/ha/images/Doctors and Nurses Collaboration.png">

@@ -1,6 +1,6 @@
 <?php
 $patientColor = "#980F09";
-$haColor = "#445E83";
+$haColor = "#112242";
 $insurerColor = "#006600";
 $providerColor = "#660066";
 ?>
@@ -150,6 +150,10 @@ body {
 .keyWord {
     color:<?php print $haColor; ?>;
     font-weight:bold;
+}
+
+.emphasizePhrase {
+    font-style:italic;font-weight:bold;
 }
 /*
 
