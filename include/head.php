@@ -26,8 +26,12 @@ $providerColor = "#660066";
 	position:absolute;top:0;left:0;width:100%;margin: 0 auto;padding:0;background-color:#F6F7ED; 
 }
 
-#banner {
+/*#banner {
 	display:block;height:115px;margin:0;padding:0;width:100%;background:#F6F7ED url(/ha/images/ywstripe.png) repeat-x 0 -5px;
+}*/
+
+#banner {
+    display:block;height:115px;margin:0;padding:0;width:100%;background:#F6F7ED;
 }
 
 #main-content {

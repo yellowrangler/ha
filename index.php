@@ -26,6 +26,7 @@ animateLineColor[3] = "<?php print $providerColor; ?>";
 animateLineColor[4] = "<?php print $insurerColor; ?>";
 
 $(document).ready(function() {
+	$("#horizontal-nav").hide();
 	$("#section-panel").css("display","none");
 
 	intervalVar=setInterval(function(){buildTitle()},50);
@@ -52,6 +53,8 @@ function buildTitle()
 	else
 	{
 		window.clearInterval(intervalVar);
+
+		$("#horizontal-nav").show();
 		
 		$('#slider').nivoSlider({
 		        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
@@ -131,7 +134,7 @@ function animateTextfromSlide(obj)
 <div class="container">
 <div id="banner">
 <img border="0" height="100" style="float:left; padding-left:75px; padding-top:15px" src="/ha/images/HAlogo.png">
-<h1 id="ywTitle" style="float:left; padding-left:35px; color:#445E83;padding-top:5px; font-size: 30px; font-style:italic; color:<?php print $haColor; ?>" ></h1>
+<h1 id="ywTitle" style="margin:0;float:left; padding-left:45px; padding-bottom:0px; color:<?php print $haColor; ?>;padding-top:85px; font-size:25px;font-style:italic;" ></h1>
 </div> <!-- end of banner -->
 
 <?php include ('include/horizontalnav.php'); ?>
