@@ -65,7 +65,7 @@ function buildTitle()
 		        pauseTime: 4000, // How long each slide will show
 		        startSlide: 0, // Set starting Slide (0 index)
 		        directionNav: true, // Next & Prev navigation
-		        controlNav: true, // 1,2,3... navigation
+		        controlNav: false, // 1,2,3... navigation
 		        controlNavThumbs: false, // Use thumbnails for Control Nav
 		        pauseOnHover: true, // Stop animation while hovering
 		        manualAdvance: false, // Force manual transitions
@@ -153,8 +153,8 @@ function animateTextfromSlide(obj)
 </div> <!--end of main-content -->
 <div id="section-panel">
 <div style="margin:auto; width:70%;">
-<center><p style="font-weight:bold;">Welcome to the Patient-Centric Collaborative Healthcare System</p></center>
 <br />
+<center><p style="font-weight:bold;">Welcome to the Patient-Centric Collaborative Healthcare System</p></center>
 <p>A <span class="keyWord" >KEY</span> that empowers the patient 
 to access and share all of their medical and health information with their Medical Providers.
 </p>
@@ -162,10 +162,10 @@ to access and share all of their medical and health information with their Medic
 Health Allianze is dedicated to being the “world class” provider of quality healthcare for our clients through the power of Knowledge-Based Information and Care.
 </p>
 </div>
-<br /><br />
+<br />
 <div id="animatedMsg" style="text-align:center;">
 </div>	
-<br /><br />
+<br />
 <center>
 <img border="0" height="300" src="/ha/images/ATM Scenario Circles.png">
 </center>
