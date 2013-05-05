@@ -9,7 +9,7 @@
 
 <div id="main-content">
 <div class="habreadcrumbs">
-About Us > Culture	
+Company Info > Culture	
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">
 <h2>Culture</h2>

@@ -36,7 +36,7 @@
 		</ul>
 	</li>
 	<li>
-		<a href="#">About US</a>
+		<a href="#">Company Info</a>
 		<ul class="menu_body">
 			<li><a href="/ha/aboutus/culture.php">Culture</a></li>
 			<li><a href="/ha/aboutus/team.php">Team</a></li>

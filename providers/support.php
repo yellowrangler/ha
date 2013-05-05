@@ -9,7 +9,7 @@
 
 <div id="main-content">
 <div class="habreadcrumbs" style="color:<?php print $providerColor; ?>;">
-Providers > Support 	
+Medical Providers > Support 	
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">
 <h2>Customer Support</h2>

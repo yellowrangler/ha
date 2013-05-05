@@ -9,7 +9,7 @@
 
 <div id="main-content">
 <div class="habreadcrumbs">
-About Us > Team	
+Company Info > Team	
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">
 <h2>Team</h2>

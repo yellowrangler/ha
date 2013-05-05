@@ -9,7 +9,7 @@
 
 <div id="main-content">
 <div class="habreadcrumbs">
-About Us > Contact Us 	
+Company Info > Contact Us 	
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">
 <h2>Contact Us</h2>

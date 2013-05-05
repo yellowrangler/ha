@@ -35,7 +35,7 @@ Health Allianze solves this problem. We give the Patient a technology KEY that a
 <br /><br />
 Health Allianze works with the Patient to manage this private medical and health information securely and with the utmost level of privacy.  The Patient grants access to their Medical Providers and healthcare supporters at the time when they need accurate, invaluable medical information and data to provide the best care possible.
 <br /><br />
-If you believe that <span class="emphasizePhrase">“The first wealth is health”</span> (by Ralph Waldo Emerson), then you need to have your comprehensive medical and health information available at the point of care. Patient-centric knowledge-based, collaborative medical care will ensure that you receive the “BEST” medical care every time you see a Medical Provider.
+If you believe that <span class="emphasizePhrase">“The first wealth is health”</span>, then you need to have your comprehensive medical and health information available at the point of care. Patient-centric knowledge-based, collaborative medical care will ensure that you receive the “BEST” medical care every time you see a Medical Provider.
 </div>
 <div style="margin:auto;padding-top:35px;width:100%;">
 <center>

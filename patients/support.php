@@ -11,12 +11,17 @@
 <div class="habreadcrumbs" style="color:<?php print $patientColor; ?>;">
 Patients > Support 	
 </div> <!-- end of habreadcrumbs -->
+
+
 <div id="section-panel">
-<div style="display:block;padding-top:25px;margin:auto;float:left;">
-<img border="0" height="150" src="/ha/images/Phone Customer Service Group 8.png">
-</div>
-<div style="clear:left;padding-top:10px;">
-<h2>Customer Support</h2>
+
+<span style="inline-block;">
+<h2 style="float:left;padding-right:75px;">Customer Support</h2>
+<img style="float:right;padding-right:20%;padding-top:30px;" border="0" height="125" src="/ha/images/Phone Customer Service Group 8.png">
+</span>
+
+
+<div style="clear:both;padding-top:20px;">
 <div class="section-article">
 <div style="padding-top:5px;margin:auto;">
 <img border="0" align="right" height="180" src="/ha/images/customerservicewoman.png">

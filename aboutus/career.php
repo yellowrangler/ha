@@ -9,7 +9,7 @@
 
 <div id="main-content">
 <div class="habreadcrumbs">
-About Us > Career	
+Company Info > Career	
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">
 <h2>Careers</h2>

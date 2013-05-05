@@ -159,6 +159,51 @@ body {
 .emphasizePhrase {
     font-style:italic;font-weight:bold;
 }
+
+.emphasizePhraseMore {
+    font-style:italic;font-size:110%;font-weight:bold;
+}
+
+.sectionHeadersInline {
+  font-variant:small-caps; font-style: italic;
+}
+
+.sectionHeadersStandAlone {
+  font-variant:small-caps;font-weight:bold;
+}
+
+.sectionHeadersStandAloneLarger {
+  font-variant:small-caps; font-weight:bold; font-size:130%;
+}
+
+.button-link {
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif; font-size:14px; font-weight:bold;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-link:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /*
 
 #displayArea img:hover {

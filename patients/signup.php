@@ -17,7 +17,7 @@ Patients > Sign Up
 Here is the sequence of events once you or your insurer signs up for Health Allianze’s technology-enabled service:
 <br /><br />
 <center>
-<img border="0" src="/ha/images/patientsignup.png">
+<img border="0" width="575" src="/ha/images/patientsignup.png">
 </center>
 <br /><br /><br />
 <div> <!-- end of section-article -->

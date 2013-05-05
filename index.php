@@ -155,8 +155,8 @@ function animateTextfromSlide(obj)
 <div style="margin:auto; width:70%;">
 <br />
 <center><p style="font-weight:bold;">Welcome to the Patient-Centric Collaborative Healthcare System</p></center>
-<p>A <span class="keyWord" >KEY</span> that empowers the patient 
-to access and share all of their medical and health information with their Medical Providers.
+<p>A <span class="keyWord" >KEY</span> <span class="emphasizePhraseMore">that empowers the patient 
+to access and share</span> all of their medical and health information with their Medical Providers.
 </p>
 <p>
 Health Allianze is dedicated to being the “world class” provider of quality healthcare for our clients through the power of Knowledge-Based Information and Care.
@@ -167,7 +167,7 @@ Health Allianze is dedicated to being the “world class” provider of quality 
 </div>	
 <br />
 <center>
-<img border="0" height="300" src="/ha/images/ATM Scenario Circles.png">
+<img border="0" height="375" src="/ha/images/ATM Scenario Circles.png">
 </center>
 <br /><br /><br /><br />
 </div> <!--end of section-article -->
