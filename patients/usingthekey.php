@@ -33,7 +33,7 @@ With your consent, you may authorize your physician to examine your medical and 
 </div> <!-- end of line-height -->
 <br />
 <div style="padding:0; width:90%">
-<ul>
+<ul class="listSeparation">
  	<li>Health Allianze’s portable <span class="keyWord" >KEY</span> will unlock access to your comprehensive medical records to whomever you authorize.</li> 
 	<li>The <span class="keyWord" >KEY</span> can be plugged into any computer. To unlock access to your medical records, you must enter your personal identification number.</li>
 	<li>Our <span class="keyWord" >KEY</span> technology ensures that secure, instant access to your complete medical and health history is available anytime, anywhere.</li>

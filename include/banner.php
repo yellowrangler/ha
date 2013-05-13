@@ -1,5 +1,5 @@
 <script type="text/javascript" >
-var titleBanner = "Patient-Centric Collaborative Services";
+var titleBanner = "Patient-Centric Collaborative Healthcare";
 
 $(document).ready(function() {
     $("#ywTitle").append(titleBanner);

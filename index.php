@@ -4,7 +4,7 @@
 </head>
 <body>
 <script type="text/javascript" >
-var titleBanner = "Patient-Centric Collaborative Services";
+var titleBanner = "Patient-Centric Collaborative Healthcare";
 var titleIndex = 0;
 var intervalVar = "";
 
@@ -154,20 +154,21 @@ function animateTextfromSlide(obj)
 <div id="section-panel">
 <div style="margin:auto; width:70%;">
 <br />
-<center><p style="font-weight:bold;">Welcome to the Patient-Centric Collaborative Healthcare System</p></center>
-<p>A <span class="keyWord" >KEY</span> <span class="emphasizePhraseMore">that empowers the patient 
-to access and share</span> all of their medical and health information with their Medical Providers.
+<center><p class="boldTitle">Welcome to the Patient-Centric Collaborative Healthcare System</p>
+<p><span class="emphasizePhraseMore">A</span> <span class="keyWord" >KEY</span> <span class="emphasizePhraseMore">technology that empowers the patient
+to access and share all of their medical and health information with their Medical Providers.
 </p>
-<p>
+<p class="boldTitle">
 Health Allianze is dedicated to being the “world class” provider of quality healthcare for our clients through the power of Knowledge-Based Information and Care.
 </p>
+</center>
 </div>
 <br />
-<div id="animatedMsg" style="text-align:center;">
+<div id="animatedMsg" style="text-align:center;" class="boldTitle">
 </div>	
 <br />
 <center>
-<img border="0" height="375" src="/ha/images/ATM Scenario Circles.png">
+<img border="0" height="475" src="/ha/images/ATM Scenario Circles.png">
 </center>
 <br /><br /><br /><br />
 </div> <!--end of section-article -->

@@ -164,12 +164,16 @@ body {
     font-style:italic;font-size:110%;font-weight:bold;
 }
 
+.boldTitle {
+    font-size:110%;font-weight:bold;
+}
+
 .sectionHeadersInline {
   font-variant:small-caps; font-style: italic;
 }
 
 .sectionHeadersStandAlone {
-  font-variant:small-caps;font-weight:bold;
+  font-variant:small-caps;font-weight:900;
 }
 
 .sectionHeadersStandAloneLarger {
@@ -204,6 +208,9 @@ body {
     cursor: pointer;
 }
 
+.justifyListBullets { margin-left: 10px; }
+
+.listSeparation li { padding-bottom: 10px; text-align:justify}
 /*
 
 #displayArea img:hover {
