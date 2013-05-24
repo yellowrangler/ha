@@ -38,7 +38,7 @@
 	<li>
 		<a href="#">Company Info</a>
 		<ul class="menu_body">
-			<li><a href="/ha/aboutus/culture.php">Culture</a></li>
+			<li><a href="/ha/aboutus/culture.php">Mission &amp; Goal</a></li>
 			<li><a href="/ha/aboutus/team.php">Team</a></li>
 			<li><a href="/ha/aboutus/news.php">News</a></li>
 			<li><a href="/ha/aboutus/career.php">Career</a></li>

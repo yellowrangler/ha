@@ -7,7 +7,8 @@ $providerColor = "#660066";
 
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-<link rel="stylesheet" href="/ha/javascript/jquery-ui-1.10.1.custom/css/ui-lightness/jquery-ui-1.10.1.custom.css" type="text/css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" type="text/css">
+<!-- <link rel="stylesheet" href="/ha/javascript/jquery-ui-1.10.1.custom/css/ui-lightness/jquery-ui-1.10.1.custom.css" type="text/css"> -->
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT|PT+Sans" type="text/css">
 <link rel="stylesheet" href="/ha/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="/ha/nivo-slider/themes/light/light.css" type="text/css" media="screen" />
@@ -15,9 +16,11 @@ $providerColor = "#660066";
 <link rel="stylesheet" href="/ha/nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="/ha/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 
-<script type="text/javascript" src="/ha/javascript/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="/ha/javascript/jquery.cycle.all.js"></script>
-<script type="text/javascript" src="/ha/javascript/jquery-ui-1.10.1.custom/js/jquery-ui-1.10.1.custom.js"></script>
+<!-- <script type="text/javascript" src="/ha/javascript/jquery-1.9.1.js"></script> -->
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<!-- <script type="text/javascript" src="/ha/javascript/jquery.cycle.all.js"></script> -->
+<!-- <script type="text/javascript" src="/ha/javascript/jquery-ui-1.10.1.custom/js/jquery-ui-1.10.1.custom.js"></script> -->
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <script type="text/javascript" src="/ha/nivo-slider/jquery.nivo.slider.js"></script>
 <script src="http://www.youtube.com/player_api"></script>
 
@@ -99,7 +102,7 @@ $providerColor = "#660066";
 }
 
 #mainmenu ul li a {
-  width: 80px;
+  width: 85px;
 	color: white;
 }
 

@@ -8,32 +8,57 @@
 <?php include ('../include/horizontalnav.php'); ?>
 
 <div id="main-content">
-<div class="habreadcrumbs">
-Company Info > Culture	
+<div class="habreadcrumbs" style="color:<?php print $haColor; ?>;">
+Company Info > Mission & Goal	
 </div> <!-- end of habreadcrumbs -->
 <div id="section-panel">
 <h2>Culture</h2>
 <div class="section-article">
-<h3>Mission Statement</h3>
-<span style="font-size:1.1em;">Health Allianze is dedicated to being the “world class” provider of quality healthcare for our clients through the power of Knowledge-Based Information and Care.</span>
+
+<span style="font-size:1.1em;">
+Health Allianze is dedicated to assisting in the improvement of our healthcare through the power of knowledge-based information. Health Allianze is dedicated to assisting in the improvement of our healthcare through the power of knowledge-based information.</span>
 <br /><br />
-Health Allianze's cutting edge technology is dramatically changing healthcare through the power and knowledge of information.  Our KEY technology provides time-efficient and cost-effective health information that spans a patient’s entire life.  Comprehensive and up-to-date medical information, keeping insurers, patients and medical providers better informed. Secure, portable medical records that go wherever the patient goes, only viewed by authorized physicians.
+<img border="0" align="right" height="210" src="/ha/images/Sandy Family.jpg">
 <br /><br />
-<h3>Goals</h3>
-Making patient-centric information available for medical providers at the point of care to medical providers anywhere in the world, at any time, even though a patient may move from insurer to insurer, from one doctor to another, from one geographic location to another 
+<div class ="mid-patient" style="padding-top:5px;padding-bottom:65px;">
+For <span style="color:<?php print $patientColor; ?>;">Patients</span> we want you to be empowered with your own medical and health information so that the medical providers who care for you collaborate effectively and efficiently to give you the best quality of care.
+</div>
+<br />
+<img style="padding-right:15px;" border="0" align="left" height="200" src="/ha/images/Doctor Team Crop.jpg">
+<div class ="mid-patient" style="padding-top:5px;padding-bottom:5px;">
+For <span style="color:<?php print $providerColor; ?>;">Medical Providers</span> we want you to be empowered with the patient-centric information that includes all the medical knowledge provided by prior medical providers who cared for your Patient.  Knowledge-based patient-centric medical and health information allows you the ability to give your patient the best quality, most effective and most efficient medical care.
+</div>
 <br /><br />
-Giving patients direct control over the distribution of their medical and health information through the use of the KEY.  
+<img border="0" align="right" height="260" src="/ha/images/Umbrella Ins for Family.png">
+<div class ="mid-patient" style="padding-top:0px;padding-bottom:25px;">
+For <span style="color:<?php print $insurerColor; ?>;">Insurers</span> we want to provide you with medical and health information for setting evidence-based protocols that give your members the best quality, most effectively and most efficient medical care.  By ensuring that your members have our technology-enabled service at the point of care, you guarantee that they will receive collaborative care that improves their healthcare outcomes and lowers cost.  As the intermediary between patients and medical providers, you finally have non-identifiable, detailed, medical and health information including sequentially recorded patients’ self-imposed care regimens, symptoms, clinical tests, procedures and long term outcomes.
+</div>
+
+<h3 style="color:<?php print $haColor; ?>;">Goals</h3>
+Health Allianze’s Goal is to Empower each of the three entities of the healthcare paradigm, Patients, Medical Providers and Insurers to ensure knowledge-based, collaborative care that improves the quality of healthcare and lowers the cost by eliminating unnecessary care due to lack of Patient-Centric information.
 <br /><br />
-Empowering the patient to access and share all their healthcare records with providers through the use of the KEY
+<img border="0" align="right" height="210" src="/ha/images/Family and Grandparents.png">
 <br /><br />
-Reducing the patient’s and insurer’s medical costs by ensuring that comprehensive patient-centric records eliminate:
-<ul>
-<li>Redundant tests and procedures</li>
-<li>Unnecessary hospitalizations</li>
-<li>Expensive medical errors</li>
-<li>Erroneous claim forms</li>
-<li>Inefficient use of time</li>
-</ul>
+<div class ="mid-patient" style="padding-top:5px;padding-bottom:120px;">
+Empowering <span style="color:<?php print $patientColor; ?>;">Patients</span> with direct control over their medical and health information and giving them the ability to authorize and distribute their collaborative information through the use of the KEY.
+</div>
+<br />
+<img border="0" align="left" height="190" src="/ha/images/Doctor and Nurse with Record.png">
+<div class ="mid-patient" style="padding-top:5px;padding-bottom:65px;">
+Empowering <span style="color:<?php print $providerColor; ?>;">Medical Providers</span> with Knowledge-Based, Patient-Centric, Collaborative medical and health information at the point of care.
+</div>
+<br />
+<div style="padding-top:60px;">
+<img border="0" align="right" height="190" src="/ha/images/People Going Over Insurance Policy.jpg">
+<div style="padding-top:10px;">
+Empowering <span style="color:<?php print $insurerColor; ?>;">Insurers</span> with Evidence-Based, non-identifiable Patient-Centric, Collaborative medical and health information for setting effective protocols and pay-for-performance matrixes while lowering healthcare costs.
+</div><!-- end of line block div -->
+</div><!-- end of image and line block div -->
+
+<div style="padding-top:100px;padding-bottom:50px;">
+<?php include ('../include/keyPU.php'); ?>
+</div>
+<br /><br />
 <div> <!-- end of section-article -->
 </div> <!-- end of section-panel -->
 </div> <!--end of main-content -->

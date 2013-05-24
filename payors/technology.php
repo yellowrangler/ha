@@ -40,7 +40,7 @@ No longer will costs and insured member’s time be spent on unnecessary fact fi
 </div> <!-- end of videocontainer -->
 </div> <!-- end of top-articles -->
 <br /><br /><br />
-<div style="width:90%;" id="bottom-articles">
+<div style="width:90%;font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;" id="bottom-articles">
 <h3>Here is how we will work with you to reduce the staggering cost of healthcare and improve delivery and efficiency:</h3>
 Insurers will have evidence-based comprehensive, non-identifiable medical information to track demographics, illness trends and statistics. Our evidence-based reports will be most valuable in analyzing health data from the start of a patient's symptoms through clinical tests, diagnosis, treatments and results.  By capturing the patient's symptoms from their personal health journal, analysis can provide preventive actions to potentially growing health problems, right from the onset. 
 <br /><br />
