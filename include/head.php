@@ -4,7 +4,8 @@ $haColor = "#112242";
 $insurerColor = "#006600";
 $providerColor = "#660066";
 ?>
-
+<title>Patient Centric Collaborative Healthcare</title>
+<meta name="description" content="A KEY technology that empowers the patient to access and share all of their medical and health information with their Medical Providers.">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" type="text/css">
