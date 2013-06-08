@@ -25,9 +25,13 @@ $providerColor = "#660066";
 <script type="text/javascript" src="/ha/nivo-slider/jquery.nivo.slider.js"></script>
 <script src="http://www.youtube.com/player_api"></script>
 
+<!-- jquery menu plugin -->
+<link rel="stylesheet" href="/ha/css/jMenu.jquery.css" type="text/css" />
+<script type="text/javascript" src="/ha/javascript/jMenu.jquery.js"></script>
+
 <style>
 .container {
-	position:absolute;top:0;left:0;width:100%;margin: 0 auto;padding:0;background-color:#F6F7ED; 
+	position:absolute;top:0;left:0;width:100%;margin: 0 0;padding:0;background-color:#F6F7ED; 
 }
 
 /*#banner {
@@ -35,7 +39,7 @@ $providerColor = "#660066";
 }*/
 
 #banner {
-    display:block;height:115px;margin:0;padding:0;width:100%;background:#F6F7ED;
+    display:block;height:135px;margin:0;padding:0;width:100%;background:#F6F7ED;
 }
 
 #main-content {
@@ -66,6 +70,37 @@ $providerColor = "#660066";
 	display:block;height:40px;margin:0;padding-left:80px;width:100%;background:#F6F7ED;
 }
 
+/* start of new menu stuff */
+#hmenu {
+  width:85%;
+  background:#112242;
+}
+
+#hmenu li a {
+  text-decoration: none;
+}
+
+#hmenu > li > a {
+  color: #fff;
+  /*font-variant:small-caps; */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hmenu > li:hover > a {
+  background: #112242;
+  color: lightblue;
+}
+
+.jMenu li a {
+    text-transform: none;
+    /*font-variant:small-caps; */
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+}
+/* end of new menu */
+
 #mainmenu {
 	width:80%;
 	background:#112242;
@@ -73,6 +108,7 @@ $providerColor = "#660066";
 
 #mainmenu ul {
   list-style: none;
+  list-style-type: none;
 	padding:0;
 }
 
@@ -85,6 +121,7 @@ $providerColor = "#660066";
 
 #mainmenu > li {
   float: left;
+  list-style-type: none;
 }
 
 #mainmenu li a {

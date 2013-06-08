@@ -1,4 +1,4 @@
-<html>
+<?php include ('../include/doctype.php'); ?>
 <head>
 <?php include ('../include/head.php'); ?>
 </head>
