@@ -15,7 +15,7 @@
 }
 
 .picbio:hover {
-	background-image: url('../images/Web Team Biography Buttonselected.png');
+	opacity: 0.5;
 }
 
 .picreas {
@@ -30,7 +30,7 @@
 }
 
 .picreas:hover {
-	background-image: url('../images/Web Team Reason for HA Buttonselected.png');
+	opacity: 0.5;
 }
 
 .teamList tr {
@@ -248,6 +248,32 @@ Company Info > Team
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="tmr" class="picreas" onclick="return false;"></a>
+		</td>
+	</tr>
+	<tr>
+		<td>Doug Sorensen</td>
+		<td>&nbsp;-&nbsp;</td>
+		<td>Lead Software Engineer</td>
+		<td>&nbsp;</td>
+		<td>
+			<a href="#" id="dsb" class="picbio" onclick="return false;"></a>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+			<a href="#" id="dsr" class="picreas" onclick="return false;"></a>
+		</td>
+	</tr>
+	<tr>
+		<td>Robert Giel</td>
+		<td>&nbsp;-&nbsp;</td>
+		<td>Controller</td>
+		<td>&nbsp;</td>
+		<td>
+			<a href="#" id="rgb" class="picbio" onclick="return false;"></a>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+			<a href="#" id="rgr" class="picreas" onclick="return false;"></a>
 		</td>
 	</tr>
 </table>	

@@ -12,15 +12,11 @@
 Patients > Support 	
 </div> <!-- end of habreadcrumbs -->
 
-
 <div id="section-panel">
-
 <span style="inline-block;">
 <h2 style="float:left;padding-right:75px;">Customer Support</h2>
 <img style="float:right;padding-right:20%;padding-top:30px;" border="0" height="125" src="/ha/images/Phone Customer Service Group 8.png">
 </span>
-
-
 <div style="clear:both;padding-top:20px;">
 <div class="section-article">
 <div style="padding-top:5px;margin:auto;">
