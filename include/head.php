@@ -6,6 +6,7 @@ $providerColor = "#660066";
 ?>
 <title>Patient Centric Collaborative Healthcare</title>
 <meta name="description" content="A KEY technology that empowers the patient to access and share all of their medical and health information with their Medical Providers.">
+<meta name="keywords" content="Collaborative Healthcare, Patient-Centric, Patient Advocacy, Evidence-Based Health Care, Healthcare Information System">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" type="text/css">
@@ -28,6 +29,17 @@ $providerColor = "#660066";
 <!-- jquery menu plugin -->
 <link rel="stylesheet" href="/ha/css/jMenu.jquery.css" type="text/css" />
 <script type="text/javascript" src="/ha/javascript/jMenu.jquery.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41947437-1', 'healthallianze.com');
+  ga('send', 'pageview');
+
+</script>
 
 <style>
 .container {
