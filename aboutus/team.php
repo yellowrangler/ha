@@ -6,10 +6,12 @@
 .picbio {
 	display:block;
 	height: 30px;
-	width: 90px;
+	width: 95px;
 	background-image: url('../images/Web Team Biography Button.png');
 	background-size: 95px;
 	border: none;
+	margin-left:auto;
+	margin-right:auto;
 	text-decoration: none;
 	background-repeat: no-repeat;
 }
@@ -21,10 +23,12 @@
 .picreas {
 	display:block;
 	height: 30px;
-	width: 90px;
+	width: 95px;
 	background-image: url('../images/Web Team Reason for HA Button.png');
 	background-size: 95px;
 	border: none;
+	margin-left:auto;
+	margin-right:auto;
 	text-decoration: none;
 	background-repeat: no-repeat;
 }
@@ -38,6 +42,10 @@
 	color:<?php print $haColor; ?>;
 	font-size:110%;
 	font-variant:small-caps;
+}
+
+.tealListTittles {
+	font-variant:normal;
 }
 
 .teamList a {
@@ -123,7 +131,7 @@ Company Info > Team
 	<tr>
 		<td>Tammy Jamieson</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Chief Executive Officer</td>
+		<td class="tealListTittles">Chief Executive Officer</td>
 		<td style="width:75px;">&nbsp;</td>
 		<td>
 			<a href="#" id="tjb" class="picbio" onclick="return false;"></a>
@@ -136,7 +144,7 @@ Company Info > Team
 	<tr>
 		<td>Steven Paris</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Chief Technology Officer</td>
+		<td class="tealListTittles">Chief Technology Officer</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="spb" class="picbio" onclick="return false;"></a>
@@ -149,7 +157,7 @@ Company Info > Team
 	<tr>
 		<td>Bruce Simkins</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Chief Operations Officer</td>
+		<td class="tealListTittles">Chief Operations Officer</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="bsb" class="picbio" onclick="return false;"></a>
@@ -162,7 +170,7 @@ Company Info > Team
 	<tr>
 		<td>Andrew Armata</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Executive Vice President Business Development</td>
+		<td class="tealListTittles">Executive Vice President Business Development</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="aab" class="picbio" onclick="return false;"></a>
@@ -175,7 +183,7 @@ Company Info > Team
 	<tr>
 		<td>John Barbaro</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Vice President of Sales</td>
+		<td class="tealListTittles">Vice President of Sales</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="jbb" class="picbio" onclick="return false;"></a>
@@ -188,7 +196,7 @@ Company Info > Team
 	<tr>
 		<td>Don Christensen</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Executive Vice President of Data Architecture</td>
+		<td class="tealListTittles">Executive Vice President of Data Architecture</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="dcb" class="picbio" onclick="return false;"></a>
@@ -201,7 +209,7 @@ Company Info > Team
 	<tr>
 		<td>Tarrant Cutler Jr.</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Vice President of Product Development</td>
+		<td class="tealListTittles">Vice President of Product Development</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="tcb" class="picbio" onclick="return false;"></a>
@@ -214,7 +222,7 @@ Company Info > Team
 	<tr>
 		<td>Sandra Friedman</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Vice President of Partnerships</td>
+		<td class="tealListTittles">Vice President of Partnerships</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="sfb" class="picbio" onclick="return false;"></a>
@@ -227,7 +235,7 @@ Company Info > Team
 	<tr>
 		<td>Roland Joy</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Vice President of Medical Affairs</td>
+		<td class="tealListTittles">Vice President of Medical Affairs</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="rjb" class="picbio" onclick="return false;"></a>
@@ -240,7 +248,7 @@ Company Info > Team
 	<tr>
 		<td>Twila McInnis</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Vice President of Policy & Compliance</td>
+		<td class="tealListTittles">Vice President of Policy & Compliance</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="tmb" class="picbio" onclick="return false;"></a>
@@ -253,7 +261,7 @@ Company Info > Team
 	<tr>
 		<td>Doug Sorensen</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Lead Software Engineer</td>
+		<td class="tealListTittles">Lead Software Engineer</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="dsb" class="picbio" onclick="return false;"></a>
@@ -266,7 +274,7 @@ Company Info > Team
 	<tr>
 		<td>Robert Giel</td>
 		<td>&nbsp;-&nbsp;</td>
-		<td>Controller</td>
+		<td class="tealListTittles">Controller</td>
 		<td>&nbsp;</td>
 		<td>
 			<a href="#" id="rgb" class="picbio" onclick="return false;"></a>

@@ -41,6 +41,15 @@ $providerColor = "#660066";
 
 </script>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <style>
 .container {
 	position:absolute;top:0;left:0;width:100%;margin: 0 0;padding:0;background-color:#F6F7ED; 

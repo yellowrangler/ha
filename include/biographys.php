@@ -67,4 +67,29 @@ var tmb = "<p>Ms. McInnis has a decade of experience as a registered nurse at Br
 "while pursuing a Master of Public Administration degree concentrating in Health Policy at the Harvard University Kennedy "+
 "School of Government. She is passionate about improving the quality of health care by making health care patient centric, "+
 "lowering costs and promoting transparency through health information technology.</p>";
+
+var spb = "<p>Mr. Paris has been employed in the software industry for over 30 years and has successfully developed, managed and "+
+"launched many important projects across a wide variety of platforms including minicomputers, desktop computers, embedded processors, "+
+"digital cable and satellite set-top boxes.  He is a long-time member of professional and educational organizations including the "+
+"Association for Computing Machinery and the Institute of Electrical and Electronic Engineers (IEEE).</p>"+
+"<p>Formerly, Mr. Paris served as North American Producer for interactive television channels at OpenTV, launched on Echo Star's "+
+"Dish Network as well as AT&T's cable operations in Florida. Among the corporations he has worked at or consulted for are Lotus "+
+"Development, Block Financial, Business Matters, Hewlett Packard and Kodak.</p>";
+
+var tcb = "<p>Mr. Cutler has spent twenty-five years in computer technology.  A proven deliverer of complex projects, he excels at "+
+"architecting and managing the development of large systems.</p>"+
+"<p>Mr. Cutler served as a Director at Fidelity Investments as a leader in the eBusiness, wireless NetBenefits and 401(k) plan groups, "+
+"managing system architecture with teams of 50 expert software engineers.</p>"+
+"<p>Prior to Fidelity Mr. Cutler was a co-owner of a consulting company, Quality Solutions, Inc where he served as the Chief Technology "+
+"Officer.  He also worked as a software engineer with Pansophic Systems Inc and New England Life Insurance.</p>";
+
+
+var rgb = "<p>Working in a number of companies ranging from pre revenue start up to $100,000,000 revenue, Mr. Giel has developed "+
+"accounting and management information tracking systems customized to each particular industry.  These include manufacturing companies, "+
+"such as Data Terminal Systems (Point of Sale systems), GroverPro Percussion (Musical instruments) and Instron (Materials testing devices); "+
+"service businesses, such as Real Estate listing services, Health Insurance claims processing and Dance Studios; and software development "+
+"companies, such as Christensen Systems, Pansophic Systems and qaSignature.</p>"+
+"<p>For a decade Mr. Giel was an angel investor in early stage start-up companies.  Most recently he consulted with small start-up "+
+"companies, addressing their accounting and information system needs and guides marketing and sales efforts.</p>";
+
 </script>

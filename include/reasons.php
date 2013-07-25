@@ -2,7 +2,7 @@
 var tjr = "<p>When I was a young girl, my mother, who was extremely active, would scare my "+
 "sister and I to death with sudden dizziness that would cause her to pass out.  My "+
 "father had her go for medical tests after every episode, and no one seemed to have an "+
-"idea what was happening to her.  The doctors at one pointed suggested that she might be "+
+"idea what was happening to her.  The doctors at one point suggested that she might be "+
 "more likely to have these attacks during premenstrual periods."+
 "</p>"+
 "<p>After several years of this, and a move across the country, my mother had a serious "+
@@ -101,4 +101,18 @@ var tmr ="<p>My life’s passion is to improve the quality and value of health c
 "and allows patients the peace of mind knowing they carry complete health care information wherever and whenever they "+
 "need care. It provides continuity and accuracy of medical information and expedites time spent in critical situations.  "+
 "Health Allianze has developed an essential product that will improve patient outcomes and save lives.</p>";
+
+var bsr = "<p></p>";
+
+var rgr = "<p>My reason for joining, is simple, a former colleague (Tammy) asked to help with the building and development of Health Allianze.</p>"; 
+
+var tcr = "<p>The focus of medical institutions is to provide quality healthcare with their member partners. "+
+"They want to ensure that their Patients/Clients are receiving quality care, which creates loyalty and a basis for continued services. The problem with that model is that it places the institution at the center of the universe. " +
+"Additionally, unless the medical institutions are electronically linked with their partners, then patient information even within "+
+"the institution might be incomplete.</p><p>I beleive the only way to true patient healtcare is through self advocacy. But to be able to truly "+
+"advocate for yourself, you must have information. That is where HeathAllinze comes in. The Health Insurance Portability & Accountability Act (HIPAA) has made it clear that patients own their "+
+"medical information. By acting as a patient proxy we can gather all your medcial information so that you will be able to walk into "+
+"any medical institution prepared. I beleive in the patience centric model. That's why I joind HealthAllianze.</p>"; 
+
+
 </script>

@@ -135,6 +135,9 @@ function animateTextfromSlide(obj)
 <div id="banner">
 <img border="0" height="100" style="float:left; padding-left:75px; padding-top:15px" src="/ha/images/HAlogo.png">
 <h1 id="ywTitle" style="margin:0;float:left; padding-left:45px; padding-bottom:0px; color:<?php print $haColor; ?>;padding-top:85px; font-size:25px;font-style:italic;" ></h1>
+<div style="float:right; padding-right:75px;padding-top:35px;">
+<div class="fb-like" data-href="http://www.healthallianze.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+</div>
 </div> <!-- end of banner -->
 
 <?php include ('include/horizontalnav.php'); ?>
@@ -169,6 +172,12 @@ Health Allianze is dedicated to being the “world class” provider of quality 
 <br />
 <center>
 <img border="0" height="475" src="/ha/images/ATM Scenario Circles.png">
+</center>
+<br /><br /><br /><br />
+<center>
+<a href="https://www.facebook.com/HealthAllianze"><img align="none" alt="HealthAllianze Facebook" height="48" src="images/facebookfffc9b.png" style="width:48px;min-height:48px;border:0;line-height:100%;outline:none;text-decoration:none" width="48"></a>
+<span style="width:45px;">&nbsp;</span>
+<a style="pading-left:35px;" href="http://twitter.com/healthallianze"><img align="none" alt="HealthAllianze Twitter" height="48" src="images/twitter92175f.png" style="width:48px;min-height:48px;border:0;line-height:100%;outline:none;text-decoration:none" width="48"></a>
 </center>
 <br /><br /><br /><br />
 </div> <!--end of section-article -->
