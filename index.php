@@ -29,7 +29,8 @@ $(document).ready(function() {
 	$("#horizontal-nav").hide();
 	$("#section-panel").css("display","none");
 
-	intervalVar=setInterval(function(){buildTitle()},50);
+	buildTitle();
+	// intervalVar=setInterval(function(){buildTitle()},50);
 
 	// $('#mainmenu').find('> li').mouseenter(function () {
 	// 	        $('ul.menu_body').slideDown('medium');
@@ -45,14 +46,15 @@ $(document).ready(function() {
 
 function buildTitle()
 {
-	if (titleIndex < titleBanner.length)
-	{
-		$("#ywTitle").append(titleBanner[titleIndex]);
-		titleIndex++;
-	}
-	else
-	{
-		window.clearInterval(intervalVar);
+	// if (titleIndex < titleBanner.length)
+	// {
+	// 	$("#ywTitle").append(titleBanner[titleIndex]);
+	// 	titleIndex++;
+	// }
+	// else
+	// {
+		// window.clearInterval(intervalVar);
+		$("#ywTitle").append(titleBanner);
 
 		$("#horizontal-nav").show();
 		
@@ -82,7 +84,7 @@ function buildTitle()
 		$("#section-panel").css("display","block");
 
 		// intervalVar=setInterval(function(){animateText()},7000);
-	}
+	// }
 }
 
 function animateTextfromSlide(obj)
@@ -92,6 +94,8 @@ function animateTextfromSlide(obj)
 	var strFind = "bg";
 	var strStart = myStr.indexOf(strFind);
 	var idx = parseInt(myStr[strStart+2]);
+
+	// $("#banner").css("background", animateLineColor[idx]);
 
 	$("#animatedMsg").html("");
 	$("#animatedMsg").css("color", animateLineColor[idx]);
@@ -132,12 +136,13 @@ function animateTextfromSlide(obj)
 </script>
 
 <div class="container">
+
 <div id="banner">
 <img border="0" height="100" style="float:left; padding-left:75px; padding-top:15px" src="/ha/images/HAlogo.png">
 <h1 id="ywTitle" style="margin:0;float:left; padding-left:45px; padding-bottom:0px; color:<?php print $haColor; ?>;padding-top:85px; font-size:25px;font-style:italic;" ></h1>
 <div style="float:right; padding-right:75px;padding-top:35px;">
 <div class="fb-like" data-href="http://www.healthallianze.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-</div>
+</div> <!-- end of div float right -->
 </div> <!-- end of banner -->
 
 <?php include ('include/horizontalnav.php'); ?>
@@ -152,36 +157,34 @@ function animateTextfromSlide(obj)
             <img src="/ha/images/bg4.jpg" data-thumb="/ha/images/bg4.jpg" alt=""  />
         </div>
     </div>
-</div>
+</div> <!--end of slider -->
 </div> <!--end of main-content -->
+
 <div id="section-panel">
 <div style="margin:auto; width:70%;">
 <br />
-<center><p class="boldTitle">Welcome to the Patient-Centric Collaborative Healthcare System</p>
+<center>
+<p class="boldTitle">Welcome to the Patient-Centric Collaborative Healthcare System</p>
 <p><span class="emphasizePhraseMore">A</span> <span class="keyWord" >KEY</span> <span class="emphasizePhraseMore">technology that empowers the patient
-to access and share all of their medical and health information with their Medical Providers.
+to access and share all of their medical and health information with their Medical Providers.</span>
 </p>
 <p class="boldTitle">
 Health Allianze is dedicated to being the “world class” provider of quality healthcare for our clients through the power of Knowledge-Based Information and Care.
 </p>
 </center>
-</div>
+</div> <!--end of margin auto -->
 <br />
-<div id="animatedMsg" style="text-align:center;" class="boldTitle">
-</div>	
+<div id="animatedMsg" style="text-align:center;" class="boldTitle"></div>	
 <br />
 <center>
 <img border="0" height="475" src="/ha/images/ATM Scenario Circles.png">
 </center>
-<br /><br /><br /><br />
-<center>
-<a href="https://www.facebook.com/HealthAllianze"><img align="none" alt="HealthAllianze Facebook" height="48" src="images/facebookfffc9b.png" style="width:48px;min-height:48px;border:0;line-height:100%;outline:none;text-decoration:none" width="48"></a>
-<span style="width:45px;">&nbsp;</span>
-<a style="pading-left:35px;" href="http://twitter.com/healthallianze"><img align="none" alt="HealthAllianze Twitter" height="48" src="images/twitter92175f.png" style="width:48px;min-height:48px;border:0;line-height:100%;outline:none;text-decoration:none" width="48"></a>
-</center>
-<br /><br /><br /><br />
-</div> <!--end of section-article -->
 </div> <!--end of section-panel -->
+
+<div style="padding-top:45px;">
+<?php include ('include/footer.php'); ?>
+</div>
 </div> <!-- end of container -->
+
 </body>
 </html>

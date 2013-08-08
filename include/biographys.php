@@ -92,4 +92,13 @@ var rgb = "<p>Working in a number of companies ranging from pre revenue start up
 "<p>For a decade Mr. Giel was an angel investor in early stage start-up companies.  Most recently he consulted with small start-up "+
 "companies, addressing their accounting and information system needs and guides marketing and sales efforts.</p>";
 
+var dcb = "<p>Don Christensen is President of QuinSoft Corporation and the innovator behind a new application development technology, "+
+"named Zeidon, that focuses on the logical data structure of large, complex applications and generates working systems from definitions "+
+"primarily directed at those logical structures. The system has been used to generate several applications, including a very large university "+
+"administrative ERP.</p>"+
+"<p>Christensen was also the founder and President of Christensen Systems, a computer software company that built and marketed the application "+
+"development system, Telon, from 1981 to 1984. In 1984, Christensen Systems was bought out by Pansophic, which expanded the sales and marketing "+
+"force for Telon, which resulted in Telon becoming the leading application generator in the large, IBM systems application market. Pansphophic "+
+"was in turn bought out by Computer Associates, which still markets and supports Telon.</p>";
+
 </script>
