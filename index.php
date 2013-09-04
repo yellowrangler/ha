@@ -138,12 +138,17 @@ function animateTextfromSlide(obj)
 <div class="container">
 
 <div id="banner">
+<div style="float:right; padding-right:75px;padding-top:35px;z-index:100;">
+<div class="fb-like" data-href="http://www.healthallianze.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+</div>
+</div> <!-- end of banner -->
+<!--<div id="banner">
 <img border="0" height="100" style="float:left; padding-left:75px; padding-top:15px" src="/ha/images/HAlogo.png">
 <h1 id="ywTitle" style="margin:0;float:left; padding-left:45px; padding-bottom:0px; color:<?php print $haColor; ?>;padding-top:85px; font-size:25px;font-style:italic;" ></h1>
 <div style="float:right; padding-right:75px;padding-top:35px;">
 <div class="fb-like" data-href="http://www.healthallianze.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-</div> <!-- end of div float right -->
-</div> <!-- end of banner -->
+</div> end of div float right 
+</div>  end of banner -->
 
 <?php include ('include/horizontalnav.php'); ?>
 
