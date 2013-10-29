@@ -30,7 +30,7 @@ $(document).ready(function() {
 	$("#section-panel").css("display","none");
 
 	buildTitle();
-	// intervalVar=setInterval(function(){buildTitle()},50);
+	intervalVar=setInterval(function(){buildTitle()},50);
 
 	// $('#mainmenu').find('> li').mouseenter(function () {
 	// 	        $('ul.menu_body').slideDown('medium');
@@ -46,15 +46,15 @@ $(document).ready(function() {
 
 function buildTitle()
 {
-	// if (titleIndex < titleBanner.length)
-	// {
-	// 	$("#ywTitle").append(titleBanner[titleIndex]);
-	// 	titleIndex++;
-	// }
-	// else
-	// {
-		// window.clearInterval(intervalVar);
-		$("#ywTitle").append(titleBanner);
+	if (titleIndex < titleBanner.length)
+	{
+		$("#ywTitle").append(titleBanner[titleIndex]);
+		titleIndex++;
+	}
+	else
+	{
+		window.clearInterval(intervalVar);
+		// $("#ywTitle").append(titleBanner);
 
 		$("#horizontal-nav").show();
 		
@@ -84,7 +84,7 @@ function buildTitle()
 		$("#section-panel").css("display","block");
 
 		// intervalVar=setInterval(function(){animateText()},7000);
-	// }
+	}
 }
 
 function animateTextfromSlide(obj)
@@ -138,8 +138,12 @@ function animateTextfromSlide(obj)
 <div class="container">
 
 <div id="banner">
-<div style="float:right; padding-right:75px;padding-top:35px;z-index:100;">
+<div style="padding-top:15px;z-index:100;">
+<h1 id="ywTitle" style="padding-left:275px; padding-bottom:0px; color:white;font-size:40px;font-style:italic;" ></h1>
+
+<!-- 
 <div class="fb-like" data-href="http://www.healthallianze.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+ -->
 </div>
 </div> <!-- end of banner -->
 <!--<div id="banner">
@@ -173,9 +177,9 @@ function animateTextfromSlide(obj)
 <p><span class="emphasizePhraseMore">A</span> <span class="keyWord" >KEY</span> <span class="emphasizePhraseMore">technology that empowers the patient
 to access and share all of their medical and health information with their Medical Providers.</span>
 </p>
-<p class="boldTitle">
+<!-- <p class="boldTitle">
 Health Allianze is dedicated to being the “world class” provider of quality healthcare for our clients through the power of Knowledge-Based Information and Care.
-</p>
+</p> -->
 </center>
 </div> <!--end of margin auto -->
 <br />

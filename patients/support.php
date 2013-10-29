@@ -30,7 +30,7 @@ Our customer service representatives are committed to answering any question or 
 <img border="0" align="left" height="100" src="/ha/images/Phone Customer Service Boy 4.png">
 </div>
 <br />
-You can contact your representative directly. No automated recordings to wade through. A real, live person is just a phone call away, waiting to provide you with first-class customer service.
+You can contact your representative directly. No automated recordings to wade through. A real, live person is just a phone call away, waiting to provide you with first-class <a href="mailto:Customerservice@HealthAllianze.com?Subject=Customer%20Inquirey">Customer Service</a>.
 </br /><br />
 <div style="padding-top:5px;padding-right:15px;">
 <center>    

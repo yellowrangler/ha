@@ -40,7 +40,7 @@
 .teamList tr {
 	height: 50px;
 	color:<?php print $haColor; ?>;
-	font-size:110%;
+	font-size:95%;
 	font-variant:small-caps;
 }
 
@@ -245,7 +245,7 @@ Company Info > Team
 			<a href="#" id="rjr" class="picreas" onclick="return false;"></a>
 		</td>
 	</tr>
-	<tr>
+	<!-- <tr>
 		<td>Twila McInnis</td>
 		<td>&nbsp;-&nbsp;</td>
 		<td class="tealListTittles">Vice President of Policy & Compliance</td>
@@ -257,7 +257,7 @@ Company Info > Team
 		<td>
 			<a href="#" id="tmr" class="picreas" onclick="return false;"></a>
 		</td>
-	</tr>
+	</tr> -->
 	<tr>
 		<td>Doug Sorensen</td>
 		<td>&nbsp;-&nbsp;</td>

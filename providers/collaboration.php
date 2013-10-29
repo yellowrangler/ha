@@ -19,7 +19,7 @@ Medical Providers > Collaboration
 <div style="margin:auto;">
 <img border="0" align="right" height="380" src="/ha/images/Patient Centered Care for Presentation.png">
 </div>
-<div style="padding-top:20px;line-height:25px;">    
+<div style="padding-top:20px;line-height:25px;" class="articleText">   
 Your Patients’ entrust you with the most important aspect of their life, their health.  Your expertise, experience, knowledge and education are the essentials you utilize in treating their symptoms. This in turn leads to diagnosis, treatments and procedures for each individual.
 <br /><br />
 In order for you to provide the “BEST QUALITY” of medical care for your Patients; you should have access to their entire medical and health information every time you meet with them.  You will also need to work with other medical specialists who have specific expertise in caring for the particular needs of your Patients.  In order for you, and your colleagues and associates to provide the most effective and efficient care for each Patient, you need to be able collaborate, communicate and share all the information that you have concerning your patient.<br /><br />

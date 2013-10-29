@@ -153,6 +153,12 @@
 }
 /*end of image slider stuff*/
 
+/* section and page text */
+.articleText {
+  text-align:justify;
+  font-size: 85%;
+}
+
 h1, h2, h3, h4, nav a {
 	font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
 }

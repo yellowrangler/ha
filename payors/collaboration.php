@@ -19,7 +19,7 @@ Insurers > Collaboration
 <div style="margin:auto;">
 <img border="0" align="right" height="380" src="/ha/images/Patient Centered Care for Presentation.png">
 </div>
-<div style="padding-top:20px;line-height:25px;">    
+<div style="padding-top:20px;line-height:25px;" class="articleText">    
 As an Insurer, you are one the most significant players in the healthcare paradigm.  Your role as an advocate for Patients as their financial intermediate with their Medical Providers, positions you as the leader in ensuring that the right medical processes are provided and that they are effective.
 <br /><br />
 As a promoter of healthy Insured Members, you are the advocate for the “Best Quality” of medical care for them, in the most effective, efficient and cost valuable approach.  Health Allianze wants to partner with you to ensure that your Insured Members are receiving the best in what medical care has to offer.

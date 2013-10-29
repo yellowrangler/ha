@@ -15,10 +15,11 @@ Payors > Technology
 <h2>Technology-Enabled Service</h2>
 <div class="section-article">
 <div id="top-articles">
-PROBLEM:  Fragmentation of patient information is escalating at the rate that cannot be sustained by the market.
+<span class="sectionHeadersInline" style="color:<?php print $insurerColor; ?>">Problem:&nbsp;</span> Fragmentation of patient information is escalating at the rate that cannot be sustained by the market.
 <br /><br />
-SOLUTION:  Health Allianze’s patent-centric approach technology enabled service improves patient care effectively and efficiently lowers costs.
+<span class="sectionHeadersInline" style="color:<?php print $insurerColor; ?>">Solution:&nbsp;</span> Health Allianze’s patent-centric approach technology enabled service improves patient care effectively and efficiently lowers costs.
 <br /><br />
+<div class="articleText">  
 Unlike other electronic health record implementations, which serve the needs of hospitals and insurers, Health Allianze utilizes a patient-centric  approach.
 <br /><br />
 With its portable, secure approach, and a patented access and delivery model, Health Allianze empowers patients to provide their various medical providers with their complete medical  and health history.
@@ -34,14 +35,16 @@ The KEY is a valuable tool that will keep your insured patients and their doctor
 With access to family medical records, medical providers will be able to establish specific preventive care practices. This is a valuable tool that will keep your insured patients and their doctors well informed and up to date with each patient's comprehensive medical data.
 <br /><br /> 
 No longer will costs and insured member’s time be spent on unnecessary fact finding occurrences due to the lack of accurate, timely and accessible medical records.
+</div> <!-- end of articleText -->
 <center>
 <div style="padding-top:35px;margin-left:auto;margin-right:auto;" id="videocontainer">
 <a href="#" onclick="playVideo()"><img border="0" width="600" title="Click on this image to see the video!" src="/ha/images/payorsolution.png"></a></center>
 </div> <!-- end of videocontainer -->
-</div> <!-- end of top-articles -->
+<!-- </div> end of top-articles -->
 <br /><br /><br />
 <div style="width:90%;font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;" id="bottom-articles">
 <h3>Here is how we will work with you to reduce the staggering cost of healthcare and improve delivery and efficiency:</h3>
+<div class="articleText"> 
 Insurers will have evidence-based comprehensive, non-identifiable medical information to track demographics, illness trends and statistics. Our evidence-based reports will be most valuable in analyzing health data from the start of a patient's symptoms through clinical tests, diagnosis, treatments and results.  By capturing the patient's symptoms from their personal health journal, analysis can provide preventive actions to potentially growing health problems, right from the onset. 
 <br /><br />
 Health Allianze products will give you the necessary information to recommend the best possible care for your clients. This will lead to a healthier lifestyle for each individual.  
@@ -54,6 +57,7 @@ We support and exceed the HIPAA security and privacy guidelines and are committe
 <br /><br />
 We will streamline claim processing, reduce costs and eliminate submitted errors.
 <br />
+</div> <!-- end of articleText -->
 <div style="padding-top:35px;margin-left:auto;margin-right:auto;" >
 <center><img border="0" height="300" title="" src="/ha/images/payorcostpie.png"></center>
 </div> <!-- end of img -->

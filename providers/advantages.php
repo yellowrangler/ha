@@ -15,7 +15,7 @@ Medical Providers > Advatages
 <h2>Advatages</h2>
 <div class="section-article">
 <h3 class="sectionHeadersStandAlone">Advantages at a Quick Glance</h3>
-<div style="width:98%;">
+<div style="width:98%;" class="articleText">
 <img style="padding-left:10px;" border="0" align="right" height="250" src="/ha/images/Doctor Patient Consultation.jpg">
 
 <ul class="listSeparation">
@@ -50,9 +50,8 @@ Health Allianze is partnering with you to save your valuable time and to provide
 <br /><br />
 All the information you need pertaining to your patients is easily accessible.
 <br /><br />
-</div> <!-- end of 80% -->
-
 Health Allianze is committed to keeping your patients’ medical information completely secure. 
+</div> <!-- end of 80% -->
 <br /><br />
 <!-- <img style="padding-left:10px;" border="0" align="right" height="130" src="/ha/images/Nurse Helping Patient providrs.jpeg">
 <img style="padding-right:10px;" border="0" align="left" height="130" src="/ha/images/Physical Therapy 5.jpg"> -->

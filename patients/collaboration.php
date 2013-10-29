@@ -19,7 +19,7 @@ Patients > Collaboration
 <div style="margin:auto;">
 <img border="0" align="right" height="380" src="/ha/images/Patient Centered Care for Presentation.png">
 </div>
-<div style="padding-top:20px;line-height:25px;">	
+<div style="padding-top:20px;line-height:25px;" class="articleText">	
 In order for you to get the “BEST” medical care, you will need to see medical specialists who have dedicated their lives to be experts in understanding and caring for specific areas of your body. In order for these medical experts to provide the most effective and efficient care, they must know your healthcare history. This should include all of your Medical Providers such as, (primary care doctor, cardiologist, dermatologist, ophthalmologist, OB/GYN, orthopedic, pediatrician, nurse, therapist, dentist, chiropractor, etc).  In other words those who have treated and diagnosed you.
 <br /><br />
 Patients, who have had a local doctor care for their parents from birth to adult years, have experienced a form of collaborative care. This is because of one doctor’s knowledge and information about that individual, which includes Patient and family history.

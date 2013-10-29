@@ -18,7 +18,7 @@
         </ul>
     </li>
     <li>
-        <a href="#">Providers</a>
+        <a href="#">Medical Providers</a>
         <ul class="menu_body">
             <li><a href="/ha/providers/collaboration.php">Collaboration</a></li>
             <li><a href="/ha/providers/advantages.php">Advantages</a></li>
