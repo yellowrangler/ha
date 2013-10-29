@@ -29,8 +29,9 @@ $(document).ready(function() {
 	$("#horizontal-nav").hide();
 	$("#section-panel").css("display","none");
 
-	buildTitle();
-	intervalVar=setInterval(function(){buildTitle()},50);
+	buildBody();
+	// buildTitle();
+	intervalVar=setInterval(function(){buildTitle()},25);
 
 	// $('#mainmenu').find('> li').mouseenter(function () {
 	// 	        $('ul.menu_body').slideDown('medium');
@@ -54,37 +55,39 @@ function buildTitle()
 	else
 	{
 		window.clearInterval(intervalVar);
-		// $("#ywTitle").append(titleBanner);
-
-		$("#horizontal-nav").show();
-		
-		$('#slider').nivoSlider({
-		        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
-		        slices: 15, // For slice animations
-		        boxCols: 8, // For box animations
-		        boxRows: 4, // For box animations
-		        animSpeed: 500, // Slide transition speed
-		        pauseTime: 4000, // How long each slide will show
-		        startSlide: 0, // Set starting Slide (0 index)
-		        directionNav: true, // Next & Prev navigation
-		        controlNav: false, // 1,2,3... navigation
-		        controlNavThumbs: false, // Use thumbnails for Control Nav
-		        pauseOnHover: true, // Stop animation while hovering
-		        manualAdvance: false, // Force manual transitions
-		        prevText: 'Prev', // Prev directionNav text
-		        nextText: 'Next', // Next directionNav text
-		        randomStart: false, // Start on a random slide
-		        beforeChange: function(){}, // Triggers before a slide transition
-		        afterChange: function(){animateTextfromSlide(this);}, // Triggers after a slide transition
-		        slideshowEnd: function(){}, // Triggers after all slides have been shown
-		        lastSlide: function(){}, // Triggers when last slide is shown
-		        afterLoad: function(){} // Triggers when slider has loaded
-		    });
-
-		$("#section-panel").css("display","block");
-
 		// intervalVar=setInterval(function(){animateText()},7000);
 	}
+}
+
+function buildBody() {
+	// $("#ywTitle").append(titleBanner);
+
+	$("#horizontal-nav").show();
+	
+	$('#slider').nivoSlider({
+	        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+	        slices: 15, // For slice animations
+	        boxCols: 8, // For box animations
+	        boxRows: 4, // For box animations
+	        animSpeed: 500, // Slide transition speed
+	        pauseTime: 4000, // How long each slide will show
+	        startSlide: 0, // Set starting Slide (0 index)
+	        directionNav: true, // Next & Prev navigation
+	        controlNav: false, // 1,2,3... navigation
+	        controlNavThumbs: false, // Use thumbnails for Control Nav
+	        pauseOnHover: true, // Stop animation while hovering
+	        manualAdvance: false, // Force manual transitions
+	        prevText: 'Prev', // Prev directionNav text
+	        nextText: 'Next', // Next directionNav text
+	        randomStart: false, // Start on a random slide
+	        beforeChange: function(){}, // Triggers before a slide transition
+	        afterChange: function(){animateTextfromSlide(this);}, // Triggers after a slide transition
+	        slideshowEnd: function(){}, // Triggers after all slides have been shown
+	        lastSlide: function(){}, // Triggers when last slide is shown
+	        afterLoad: function(){} // Triggers when slider has loaded
+	    });
+
+	$("#section-panel").css("display","block");
 }
 
 function animateTextfromSlide(obj)
@@ -139,7 +142,7 @@ function animateTextfromSlide(obj)
 
 <div id="banner">
 <div style="padding-top:15px;z-index:100;">
-<h1 id="ywTitle" style="padding-left:275px; padding-bottom:0px; color:white;font-size:40px;font-style:italic;" ></h1>
+<h1 id="ywTitle" style="padding-left:275px; padding-bottom:0px; color:white;font-size:35px;font-style:italic;" ></h1>
 
 <!-- 
 <div class="fb-like" data-href="http://www.healthallianze.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
