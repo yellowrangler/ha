@@ -16,7 +16,7 @@
 
 	<span style="width:45px;">&nbsp;</span>
 
-	<a href="http://www.linkedin.com/company/health-allianze" style="pading-left:35px;text-decoration:none;color:lightblue;font-size:20px;"> <i style="display:inline-block;padding-top:5px; title="HealthAllianze @ LinkedIn" class="icon-linkedin-sign"></i></a>
+	<a href="http://www.linkedin.com/company/health-allianze" style="pading-left:35px;text-decoration:none;color:lightblue;font-size:20px;"> <i style="display:inline-block;padding-top:5px;" title="HealthAllianze @ LinkedIn" class="icon-linkedin-sign"></i></a>
 	<!-- <a style="pading-left:35px;" href="http://www.linkedin.com/company/health-allianze">
 	<img align="none" alt="HealthAllianze Linked In" height="48" src="images/linkedin_43x34.png" style="width:48px;min-height:48px;border:0;line-height:100%;outline:none;text-decoration:none" width="48">
 	</a> -->
