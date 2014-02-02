@@ -15,8 +15,8 @@ Payors > Membership
 <h2>Membership</h2>
 <div class="section-article">
 <h3>To partner with Health Allianze Key contact our team:</h3>
-<a href="mailto:Jbarbaro@HealthAllianze.com?Subject=Membership%20Inquirey">John Barbaro</a>
-<br />
+<!-- <a href="mailto:Jbarbaro@HealthAllianze.com?Subject=Membership%20Inquirey">John Barbaro</a>
+<br /> -->
 <a href="mailto:Sfriedman@HealthAllianze.com?Subject=Membership%20Inquirey">Sandra Friedman</a>
 <br />
 <div> <!-- end of section-article -->

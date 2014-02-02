@@ -180,7 +180,7 @@ Company Info > Team
 			<a href="#" id="aar" class="picreas" onclick="return false;"></a>
 		</td>
 	</tr>
-	<tr>
+	<!-- <tr>
 		<td>John Barbaro</td>
 		<td>&nbsp;-&nbsp;</td>
 		<td class="tealListTittles">Vice President of Sales</td>
@@ -192,7 +192,7 @@ Company Info > Team
 		<td>
 			<a href="#" id="jbr" class="picreas" onclick="return false;"></a>
 		</td>
-	</tr>
+	</tr> -->
 	<tr>
 		<td>Don Christensen</td>
 		<td>&nbsp;-&nbsp;</td>

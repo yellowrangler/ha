@@ -48,8 +48,8 @@ Wakefield, MA 01880
 <div style="clear:both;">
 Partnerships:  <a href="mailto:Sfriedman@HealthAllianze.com?Subject=Partnership%20Inquirey">Sandra Friedman</a>
 <br />
-Corporate Sales & Alliances: <a href="mailto:Jbarbaro@HealthAllianze.com?Subject=Sales%20Inquirey">John Barbaro</a>
-<br /> 
+<!-- Corporate Sales & Alliances: <a href="mailto:Jbarbaro@HealthAllianze.com?Subject=Sales%20Inquirey">John Barbaro</a>
+<br />  -->
 Customer Service:  <a href="mailto:Customerservice@HealthAllianze.com?Subject=Customer%20Inquirey">Customerservice@HealthAllianze.com</a>
 <br />
 Additional Health Allianze Information:  <a href="mailto:Info@HealthAllianze.com?Subject=Additional%20Information">Info@HealthAllianze.com</a>
